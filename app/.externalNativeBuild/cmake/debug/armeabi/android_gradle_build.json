@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/bagjeong-gyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_opencv-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lib_opencv",
+			"buildType" : "debug",
+			"output" : "/Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/src/main/JniLibs/armeabi/libopencv_java3.so",
+			"toolchain" : "13313924434775343337"
+		},
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/bagjeong-gyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/.externalNativeBuild/cmake/debug/armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I/Users/bagjeong-gyu/Documents/OpenCV-android-sdk/sdk/native/jni/include -isystem /Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/Users/bagjeong-gyu/Documents/PentaSecurity/OpenCVWithCMakeTest/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "13313924434775343337"
+		}
+	},
+	"toolchains" : 
+	{
+		"13313924434775343337" : 
+		{
+			"cCompilerExecutable" : "/Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/bagjeong-gyu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
